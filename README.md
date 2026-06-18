@@ -3,19 +3,14 @@
 Pip reads a short story aloud, then a quiz built entirely from a JSON payload appears the moment narration ends.
 
 ## Screenshots
- 
+
 <table>
   <tr>
-    <td align="center"><img src="<img width="716" height="1600" alt="peblo1 png" src="https://github.com/user-attachments/assets/55621485-ea56-4415-96cd-96ba7295edf5" />
-" width="170"/><br/><sub>Idle</sub></td>
-    <td align="center"><img src="<img width="716" height="1600" alt="peblo2 png" src="https://github.com/user-attachments/assets/2dc33833-acf8-407c-a385-7744591a0228" />
-" width="170"/><br/><sub>Reading aloud</sub></td>
-    <td align="center"><img src="<img width="716" height="1600" alt="peblo3 png" src="https://github.com/user-attachments/assets/c9337a80-4996-4aab-b8bc-a107ddd3c918" />
-" width="170"/><br/><sub>Quiz revealed</sub></td>
-    <td align="center"><img src="<img width="716" height="1600" alt="peblo4 png" src="https://github.com/user-attachments/assets/2471e1ac-5698-410c-be2f-95e406dc1e55" />
-" width="170"/><br/><sub>Wrong answer</sub></td>
-    <td align="center"><img src="<img width="716" height="1600" alt="peblo5 png" src="https://github.com/user-attachments/assets/007993df-4649-42b6-b3fc-46b0f1af1f71" />
-" width="170"/><br/><sub>Correct → success</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/55621485-ea56-4415-96cd-96ba7295edf5" width="170"/><br/><sub>Idle</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/2dc33833-acf8-407c-a385-7744591a0228" width="170"/><br/><sub>Reading aloud</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/c9337a80-4996-4aab-b8bc-a107ddd3c918" width="170"/><br/><sub>Quiz revealed</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/2471e1ac-5698-410c-be2f-95e406dc1e55" width="170"/><br/><sub>Wrong answer</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/007993df-4649-42b6-b3fc-46b0f1af1f71" width="170"/><br/><sub>Correct → success</sub></td>
   </tr>
 </table>
 
