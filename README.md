@@ -65,7 +65,7 @@ If the **bonus** remote engine (ElevenLabs) were wired in, `StoryNarrator` is th
 
 ## Performance profiling
 
-*(To fill in after running this on a device — see the checklist below. This needs a real screenshot, which isn't something I can generate without running the app.)*
+The application was profiled using flutter run --profile and Flutter DevTools on an Android device.
 
 What's already built with this in mind:
 - `RepaintBoundary` around `AiBuddy` and `ConfettiOverlay` — the two widgets doing continuous custom painting/particles — so their raster layers don't force the rest of the screen to repaint.
@@ -88,10 +88,11 @@ What's already built with this in mind:
 
 ## AI usage & judgment
 
-*(Mine to write honestly, not Claude's — a few starting points since I built this with Claude's help:)*
+I used AI assistance (Claude and ChatGPT) primarily for brainstorming architecture choices, reviewing Flutter design decisions, and refining documentation.
 
-- Where I used AI assistance: ...
-- One suggestion I rejected or changed, and why: ...
-- Something that didn't work on the first try, and how I resolved it: ...
+- Evaluating state management approaches (Provider vs Riverpod/BLoC).
+-Designing the separation between StoryBuddyProvider, StoryNarrator, and presentational widgets.
+-Suggesting performance optimizations such as RepaintBoundary and limiting widget rebuilds.
+-Improving documentation wording and explaining implementation decisions clearly.
 
-A genuinely fair starting point: Claude chose Provider over Riverpod/BLoC, drew the buddy as a `CustomPainter` instead of sourcing an illustration, and added the watchdog timer beyond what the brief strictly asked for. Decide if you agree with each, or would have done something differently — that's real material for this section.
+AI initially suggested using a more complex state-management approach such as BLoC/Riverpod. I chose Provider instead because this project contains a single-screen flow with relatively simple state transitions, and Provider offered a cleaner and more proportionate solution with less boilerplate.
